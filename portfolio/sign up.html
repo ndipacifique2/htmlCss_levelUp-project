@@ -1,0 +1,79 @@
+<html>
+<head>
+	<title>login</title>
+</head>
+<body>
+	
+	<h1> LOGIN</h1>
+	<form >
+		<label for="username">Your username:</label>
+		<input type="text" id="username" name="username" required  placeholder="Enter your username"><br><br>
+		<label for="password">Your password:</label>
+		<input type="password" id="password" name="password" required placeholder="Enter your password"><br><br>
+		
+		<input type="checkbox" name="rememberme"><font color="#fff">Remember me</font color>
+		<div id="forgate">
+		<a href=""><font color="#fff">forgate password</font color></a></div>
+		<input type="submit" value="login" name="login">
+		<br><br><center><font color="#fff">Not a member?</font><a href=""><font color="#fff">register here</font color></a></center>
+	</form>
+</body>
+
+</html>
+<style>
+	body {
+			font-family: Arial, sans-serif;
+			background-color: #066554;
+		}
+		h1 {
+			color: #ffff;
+			text-align: center;
+			margin-top: 20px;
+		}
+		form {
+			background-color: #005444;
+			padding: 20px;
+			border-radius: 11px;
+			box-shadow: 0px 0px 10px #aaaaaa;
+			margin: 20px auto;
+			max-width: 500px;
+			text-align: left;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #fff;
+			font-weight: bold;
+		}
+		input[type="text"],
+		input[type="password"],
+		input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #cccccc;
+			border-radius: 3px;
+			box-sizing: border-box;
+		}
+		
+			
+		
+		#forgete {
+			color: #ffffff;
+			text-align: right;
+			
+			
+		}
+		
+		input[type="submit"] {
+			background-color: #000000;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;width: 100%;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+</style>
